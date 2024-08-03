@@ -7,6 +7,10 @@ The `your_urls.csv` is the Input-File for the program and while running it, you 
 
 #
 
+---
+
+#
+
 ## Installation Process 
 
 1. Go [Here](https://github.com/ShifatHasanGNS/Check_Active_URLs/releases/tag/v1.0.0) and Download one specific file from the `Assets`, as per your Device and Operating System.
@@ -30,6 +34,9 @@ The `your_urls.csv` is the Input-File for the program and while running it, you 
 ```
 #
 
+---
+
+#
 
 ### How to use without downloading the executable-file?
 0. Make sure you have `Go` installed in your System. If not, then install it from [Here](https://golang.org/doc/install).
@@ -49,3 +56,48 @@ make cross-compile
 7. Now You are Good to Go.
 
 # 
+
+---
+
+#
+
+## How to install `make`?
+
+### Windows
+- If `choco` is not installed, install it using the following command
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+```
+- Then, To install `make`
+```bash
+choco install make
+```
+
+### Linux
+- Ubuntu/Debian-based Linux
+```bash
+sudo apt install make
+```
+- Arch-based Linux
+```bash
+sudo pacman -S make
+```
+
+### Mac
+- If `brew` is not installed, install it using the following command
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+- Then, To install `make`
+```bash
+brew install make
+```
+
+#
+
+**Verify Installation:**
+```bash
+make --version
+```
+
+#
