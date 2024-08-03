@@ -5,11 +5,7 @@ It can check a list of http/https protocol based URLs and from them generates a 
 
 The `your_urls.csv` is the Input-File for the program and while running it, you should provide a name for the Output-File, for example - `your-active-urls.txt`.
 
-#
-
 ---
-
-#
 
 ## Installation Process 
 
@@ -32,11 +28,8 @@ The `your_urls.csv` is the Input-File for the program and while running it, you 
 ```bash
 .\check-active-urls-windows-amd64 urls.csv active-urls.txt
 ```
-#
 
 ---
-
-#
 
 ### How to use without downloading the executable-file?
 0. Make sure you have `Go` installed in your System. If not, then install it from [Here](https://golang.org/doc/install).
@@ -55,11 +48,7 @@ make cross-compile
 6. The `bin` folder will be generated where you will find the Executable-Files.
 7. Now You are Good to Go.
 
-# 
-
 ---
-
-#
 
 ## How to install `make`?
 
