@@ -9,7 +9,7 @@ The `your_urls.csv` is the Input-File for the program and while running it, you 
 
 ## Installation Process 
 
-1. Go [Here](https://github.com/ShifatHasanGNS/Check_Active_URLs/releases/tag/v1.0.0) and Download as per your Operating System.
+1. Go [Here](https://github.com/ShifatHasanGNS/Check_Active_URLs/releases/tag/v1.0.0) and Download one specific file from the `Assets`, as per your Device and Operating System.
 2. Download `urls.csv` as your Input-File URL-List or make your own CSV File. But, make sure to maintain the exact same format as the `urls.csv`.
 3. Open your Terminal in the same directory where the downloaded executable-file located.
 4. Run-Command-Format: `<Program> <Input> <Output>`
