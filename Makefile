@@ -48,9 +48,3 @@ cross-compile:
 clean:
 	@echo "Cleaning up..."
 	rm -f $(APP_NAME) ./bin/$(APP_NAME)__*
-
-
-.PHONY: run
-run:
-	@echo "\nInput-File : 'urls.csv'\nOutput-File: 'active_urls.txt'\n"
-	@go run $(SRC) urls.csv active_urls.txt
